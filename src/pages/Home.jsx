@@ -4,13 +4,11 @@ import { Link, useNavigate } from "react-router-dom";
 import Header from "../pages/Header";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import { BiLogoGmail, BiLogoFacebook } from "react-icons/bi";
-import { AiFillFacebook } from "react-icons/ai";
 import profilemg from "../assets/profilemg.png";
 
 function Home() {
   return (
     <>
-      <Header />
       <section className="home" id="home">
         <div className="home-content">
           <h3>Hi!</h3>
@@ -22,7 +20,7 @@ function Home() {
 
           <div className="socail-media">
             <a href="#">
-              <AiFillFacebook color="red" id="icon" />
+              <BiLogoFacebook id="icon" />
             </a>
             <a href="#">
               <BsGithub id="icon" />

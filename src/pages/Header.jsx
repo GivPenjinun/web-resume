@@ -13,7 +13,7 @@ function Header() {
         <nav className="navBar">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#passion">Passion</a>
+          <a href="#skill">Skill</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </nav>
