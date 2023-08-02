@@ -56,7 +56,20 @@ section {
   color: var(--main-color);
 }
 
-.socail-media a .contact {
+.contact {
   display: inline-block;
   font-size: 2rem;
+  padding: 1.2rem 1.8rem;
+  background: radial-gradient(
+    circle,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(44, 132, 235, 1) 59%
+  );
+  border-radius: 5rem;
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.contact:hover,
+.contact:active {
+  background: var(--main-color);
 }
