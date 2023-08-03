@@ -3,9 +3,6 @@ import "./Portfolio.css";
 import { Link, useNavigate } from "react-router-dom";
 import { LuExternalLink } from "react-icons/lu";
 import portfolios from "./Portfolio.js";
-import portfolio1 from "/src/assets/portfolio1.jpg";
-import portfolio2 from "/src/assets/portfolio1.jpg";
-import portfolio3 from "/src/assets/portfolio1.jpg";
 
 function Portfolio() {
   return (

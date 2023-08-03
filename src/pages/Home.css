@@ -54,7 +54,7 @@
   color: var(--main-color);
 }
 
-.contact {
+.contact-btn {
   display: inline-block;
   font-size: 2rem;
   padding: 1.2rem 1.8rem;
@@ -67,7 +67,7 @@
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-.contact:hover,
-.contact:active {
+.contact-btn:hover,
+.contact-btn:active {
   background: var(--main-color);
 }

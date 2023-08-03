@@ -4,6 +4,8 @@ import Home from "./pages/Home.jsx";
 import Header from "./pages/Header";
 import Skill from "./pages/Skill.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
+import Contact from "./pages/Contact.jsx";
+import Footer from "./pages/Footer.jsx";
 import "./App.css";
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       </Router>
       <Skill />
       <Portfolio />
+      <Contact />
     </div>
   );
 }
