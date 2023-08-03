@@ -1,3 +1,40 @@
 .footer {
-  min-height: 50vh;
+  position: relative;
+  min-height: 40vh;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.footer .icon-btn a {
+  color: var(--main-color);
+  font-size: 4rem;
+  border: 0.1rem solid var(--main-color);
+  background: white;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  position: absolute;
+  bottom: 40px;
+  right: 50%;
+  cursor: pointer;
+}
+.footer .footer-text {
+  z-index: 2;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.footer .footer-bg {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
 }

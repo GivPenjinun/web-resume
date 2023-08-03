@@ -32,7 +32,7 @@ function Home() {
               <BiLogoGmail id="icon" />
             </a>
           </div>
-          <a href="#" className="contact-btn">
+          <a href="#contact" className="contact-btn">
             Contact Me
           </a>
         </div>
